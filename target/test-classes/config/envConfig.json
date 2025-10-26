@@ -1,0 +1,11 @@
+{
+  "prod": {
+    "uri": "https://petstore.swagger.io/v2",
+    "endpoint": {
+      "createUser": "/user",
+      "getUser": "/user/{username}",
+      "updateUser": "/user/{username}",
+      "deleteUser": "/user/{username}"
+    }
+  }
+}

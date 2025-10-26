@@ -11,6 +11,11 @@ Update User – Sends a PUT request to modify user details.
 Delete User – Sends a DELETE request to remove the user.
 All tests validate API response codes and response body fields.
 
+CRUD Tests
+Create User: POST /user
+Get User: GET /user/{username}
+Update User: PUT /user/{username}
+Delete User: DELETE /user/{username}
 
 Tech:
 Java 17
